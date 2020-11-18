@@ -9,7 +9,7 @@
 body {
     font-family: Roboto, sans-serif;
     background-color:  #08142F;
-    font-size: 120%;
+    font-size: 100%;
     max-width: 60%;
     margin: 0 auto;
     color: #565859;
@@ -21,12 +21,11 @@ h1 {
     font-family: 'Karla', sans-serif;
     font-weight: 700;
     margin: 0 auto;
-    font-size: 180%;
+    font-size: 170%;
     padding: 2% 0 0% 0;
 }
 p {
     padding: 3% 10% 5% 10%;
-    font-size: 20px;
     font-weight: 400;
     line-height: 1.6;
 }
@@ -42,7 +41,7 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 36px;
+    font-size: 120%;
     margin: 1.5% 1.5%;
     cursor: pointer;
     font-weight: 600;
@@ -71,7 +70,7 @@ header {
 }
 .follow-img {
     padding: 5%;
-    height: 100%;
+    height: 0%;
 }
 .social {
     float: center;
@@ -89,7 +88,6 @@ header {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
-    border: black;
 }
 .social img:hover {
     filter: brightness(105%);
