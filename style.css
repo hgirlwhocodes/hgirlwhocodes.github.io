@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+}
+body {
+    font-family: Roboto, sans-serif;
+    background-color:  #08142F;
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #565859;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+h1 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    margin: 0 auto;
+    font-size: 46px;
+    padding: 2% 0 0% 0;
+}
+p {
+    padding: 3% 10% 5% 10%;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+button {
+    background-color: #c43147;
+    border: none;
+    color: white;
+    padding: 15px 62px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: 600;
+}
+button:hover {
+    filter: brightness(105%);
+}
+.wrapper {
+    background: white;
+}
+img {
+    max-width: 100%;
+}
+img:hover {
+    filter: brightness(105%);
+}  
+header {
+    width: 100%;
+}
+.logo {
+    margin: 0 auto;
+}
+.callout {
+    float: center;
+    margin: 3% 0 2% 0;
+    background-color:  #08142F;
+}
+.follow-img {
+    padding-top: 5%;
+    height: 200px;
+
+}
+.social {
+    float: center;
+    list-style-type: none;
+    margin-top: 3%;
+}
+.social li {
+    display: inline;
+}
+.social img {
+    width: 80px;
+    height: 80px;
+    margin: 0 2% 0 2%;
+    
+}
+.social img:hover {
+    filter: brightness(105%);
+    box-shadow: 0 0 0 4px rgba(255,255,255,1);
+    overflow: hidden;
+    -webkit-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+    -moz-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+    
+}
+.banner {
+    margin-bottom: 2%;
+}
+.one-col-image {
+    max-width: 40%;
+    margin-top: 10px;
+    border: 5px solid #B1ECF2;
+    border-radius: 7px;
+    border-style: double;
+}
+.one-col-image, .group-img:focus {
+    outline: none;
+    border-color: #80E7F2;
+    box-shadow: 0 0 10px #80E7F2;
+}
+.group-img {
+    max-width: 90%;
+    border: 5px solid #B1ECF2;
+    border-radius: 7px;
+    border-style: double;
+}
