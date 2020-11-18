@@ -67,27 +67,28 @@ header {
 }
 .callout {
     float: center;
-    margin: 3% 0 2% 0;
     background-color:  #08142F;
 }
 .follow-img {
     padding-top: 5%;
     height: 200px;
-
 }
 .social {
     float: center;
     list-style-type: none;
-    margin-top: 3%;
 }
 .social li {
     display: inline;
 }
 .social img {
-    width: 80px;
+    margin: 0 2% 0 2%; 
     height: 80px;
-    margin: 0 2% 0 2%;
-    
+    width: 80px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
 }
 .social img:hover {
     filter: brightness(105%);
@@ -96,7 +97,6 @@ header {
     -webkit-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
     -moz-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
     transition: background 0.3s, color 0.3s, box-shadow 0.3s;
-    
 }
 .banner {
     margin-bottom: 2%;
